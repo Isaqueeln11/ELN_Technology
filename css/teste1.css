@@ -1,0 +1,337 @@
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+    background: linear-gradient( to left,#3533cd, #000000);
+  
+  }
+  
+/* Estilos para os textos */
+h2 {
+  color: rgb(254, 252, 252); /* Altere a cor desejada */
+}
+
+h1 {
+  color: rgb(251, 255, 251); /* Altere a cor desejada */
+}
+
+h2 {
+  color: rgb(245, 245, 249); /* Altere a cor desejada */
+}
+
+h2 {
+  color: rgb(255, 255, 254); /* Altere a cor desejada */
+}
+
+h2 {
+  color: rgb(255, 255, 255); /* Altere a cor desejada */
+}
+
+h3 {
+  color: #508AD0; /* Defina a cor desejada para o título dos artigos */
+}
+
+p {
+  color: #FFffff; /* Defina a cor desejada para o conteúdo dos artigos */
+}
+
+
+/* Estilos para o cabeçalho */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px; /* Define a largura desejada para a logo */
+  height: 200px; /* Define a altura desejada para a logo */
+}
+
+/* Estilos para a navegação */
+nav {
+  background-color: #508AD0;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para as seções */
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20%;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20%;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.photo {
+  width: 75%;
+  height: auto;
+  border-radius: 8px;
+
+
+}
+
+.title {
+  font-size: 24px;
+  color: #508AD0;
+}
+
+.description {
+  font-size: 18px;
+  color: #FFffff;
+}
+
+/* Estilos para os artigos e tutoriais */
+article {
+  margin-bottom: 20px;
+}
+
+/* Estilos para os contatos */
+.contact-list {
+  display: flex;
+  justify-content: center;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fefeff;
+}
+
+
+.contact-item {
+  margin: 0 10px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background: linear-gradient(#508AD0, #336699);
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.creator-info {
+  font-size: 16px; /* Defina o tamanho de fonte desejado para o título */
+  font-weight: bold; /* Defina o peso da fonte desejado para o título */
+}
+
+.creator-info {
+  font-size: 14px; /* Defina o tamanho de fonte desejado para o texto */
+}
+/* Estilos padrão */
+
+/* Estilos para telas menores */
+@media (max-width: 768px) { 
+  /* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to left, #3533cd, #000000);
+}
+
+/* Estilos para os textos */
+h1,
+h2,
+h3,
+p {
+  color: #fff; /* Altere a cor desejada */
+}
+
+h3 {
+  color: #508AD0; /* Defina a cor desejada para o título dos artigos */
+}
+
+/* Estilos para o cabeçalho */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* Ajuste a largura máxima desejada para a logo */
+  height: auto;
+}
+
+/* Estilos para a navegação */
+nav {
+  background-color: #508AD0;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para as seções */
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.container1,
+.container2,
+.container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.container2 {
+  flex-direction: column-reverse;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 24px;
+  color: #508AD0;
+}
+
+.description {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* Estilos para os artigos e tutoriais */
+article {
+  margin-bottom: 20px;
+}
+
+/* Estilos para os contatos */
+.contact-list {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fefeff;
+}
+
+.contact-item {
+  margin: 0 10px;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background: linear-gradient(#508AD0, #336699);
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Estilos padrão */
+  /* Estilos específicos para telas menores */
+}
+
+.creator-info {
+  font-size: 12px; /* Defina o tamanho de fonte desejado para o título */
+  font-weight: bold; /* Defina o peso da fonte desejado para o título */
+}
+
+.creator-info {
+  font-size: 12px; /* Defina o tamanho de fonte desejado para o texto */
+}
+
+
+/* Estilos para telas maiores */
+@media (min-width: 769px) { 
+  /* Estilos específicos para telas maiores */
+}
+
+

@@ -1,0 +1,125 @@
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to left,#3533cd, #000000); /* Adiciona o degradê de fundo */
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+.author-name {
+  color: rgb(124, 182, 241); /* Substitua "red" pela cor desejada */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#author-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.author-image {
+  width: 200px; /* Defina a largura desejada para a imagem */
+  height: 200px; /* Defina a altura desejada para a imagem */
+  border-radius: 50%; /* Aplica o formato de círculo */
+  object-fit: cover; /* Garante que a imagem preencha o círculo */
+  margin: 0 auto; /* Centraliza horizontalmente a imagem */
+}
+.author-name {
+  font-size: 24px; /* Tamanho da fonte desejado */
+}
+
+
+/* Estilos para as seções */
+section {
+  padding: 40px;
+}
+
+h2 {
+  color: rgb(131, 131, 242); /* Altera a cor para azul */
+}
+
+h3 {
+  color: rgb(131, 131, 242); /* Altera a cor para azul */
+}
+p {
+  color: white; /* Altera a cor para branco */
+}
+.center {
+  text-align: center;
+}
+
+
+article {
+  margin-bottom: 20px;
+}
+
+/* Estilos para o formulário de contato */
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.contact-list {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-item {
+  margin-right: 10px;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fefeff;
+}
+
